@@ -16,7 +16,7 @@ class Scraper
 
   def make_courses
     test =  get_courses
-    puts test
+    binding.pry
   end
 
   def print_courses
