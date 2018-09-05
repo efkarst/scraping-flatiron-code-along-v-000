@@ -14,7 +14,8 @@ class Scraper
   end
 
   def make_courses
-    puts get_courses
+    test =  get_courses
+    puts test
   end
 
   def print_courses
