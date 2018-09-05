@@ -5,7 +5,7 @@ require_relative './course.rb'
 
 class Scraper
 
-  def get_page(url)
+  def get_page
     page = Nokogiri::HTML(open(url))
   end
 
